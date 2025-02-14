@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <h1>Dragon ball Blog</h1>
-        <div v-if='characters.length'>
+    <div class="flex flex-col justify-center">
+        <h1 class=" text-[50px] text-blue-600 text-center font-black">Dragon ball Blog</h1>
+        <div v-if='characters.length' class="grid grid-cols-4 gap-5 m-10">
             <CharacterCard
             v-for="character in characters"
             v-bind:key="character.id"   
@@ -9,7 +9,7 @@
             />
         </div>
         <div v-else>
-            <p>Cargando personajes</p>
+            <p>Cargando personajes...</p>
         </div>
     </div>
 </template>
