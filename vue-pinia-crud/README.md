@@ -87,6 +87,11 @@ Los usuarios pueden tener fotos de perfil. Debido a que JSONPlaceholder ya no pr
 ![Favorites Page](./public/screenshots/Crear_post.png)
 ![Favorites Page](./public/screenshots/Actualizar_Post.png)
 
+## 🌍 Proyecto en Producción
+
+Puedes ver el proyecto funcionando en el siguiente enlace:
+🔗 **[UserManager - Versión Desplegada](https://practicando-vue3.netlify.app)**
+
 ## 🔗 APIs utilizadas
 
 Se utilizan diversas APIs para obtener información y recursos:
